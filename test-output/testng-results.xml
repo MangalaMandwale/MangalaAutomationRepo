@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="5" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-15T23:16:48 IST" name="All Test Suite" finished-at="2022-11-15T23:17:34 IST" duration-ms="46312">
+    <groups>
+    </groups>
+    <test started-at="2022-11-15T23:16:48 IST" name="C:/Users/Sagar1/IdeaProjects/MangalaMandwaleAutomationProject" finished-at="2022-11-15T23:17:34 IST" duration-ms="46312">
+      <class name="itlisteners.DemoListener">
+        <test-method signature="m1()[pri:0, instance:itlisteners.DemoListener@6c40365c]" started-at="2022-11-15T23:16:48 IST" name="m1" finished-at="2022-11-15T23:16:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method signature="m2()[pri:0, instance:itlisteners.DemoListener@6c40365c]" started-at="2022-11-15T23:16:48 IST" name="m2" finished-at="2022-11-15T23:16:48 IST" duration-ms="15" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at itlisteners.DemoListener.m2(DemoListener.java:17)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method signature="m3()[pri:0, instance:itlisteners.DemoListener@6c40365c]" started-at="2022-11-15T23:16:48 IST" name="m3" finished-at="2022-11-15T23:16:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+      </class> <!-- itlisteners.DemoListener -->
+      <class name="reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:16:48 IST" name="beforeTest" finished-at="2022-11-15T23:16:48 IST" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="testScript(java.lang.String)[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:16:48 IST" name="testScript" finished-at="2022-11-15T23:16:55 IST" duration-ms="6983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript -->
+        <test-method signature="testScript1()[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:16:55 IST" name="testScript1" finished-at="2022-11-15T23:17:00 IST" duration-ms="4256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript1 -->
+        <test-method is-config="true" signature="afterMethodExample()[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:17:00 IST" name="afterMethodExample" finished-at="2022-11-15T23:17:00 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodExample -->
+        <test-method is-config="true" signature="testScript(java.lang.String)[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:17:00 IST" name="testScript" finished-at="2022-11-15T23:17:04 IST" duration-ms="3388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript -->
+        <test-method signature="testScript2()[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:17:04 IST" name="testScript2" finished-at="2022-11-15T23:17:08 IST" duration-ms="4286" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [google] but found [Google]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [google] but found [Google]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet.testScript2(ExtentReportExample.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript2 -->
+        <test-method is-config="true" signature="afterMethodExample()[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:17:08 IST" name="afterMethodExample" finished-at="2022-11-15T23:17:08 IST" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodExample -->
+        <test-method is-config="true" signature="testScript(java.lang.String)[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:17:08 IST" name="testScript" finished-at="2022-11-15T23:17:11 IST" duration-ms="2862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript -->
+        <test-method signature="testScript3()[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:17:11 IST" name="testScript3" finished-at="2022-11-15T23:17:16 IST" duration-ms="4644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript3 -->
+        <test-method is-config="true" signature="afterMethodExample()[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:17:16 IST" name="afterMethodExample" finished-at="2022-11-15T23:17:16 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodExample -->
+        <test-method is-config="true" signature="testScript(java.lang.String)[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:17:16 IST" name="testScript" finished-at="2022-11-15T23:17:19 IST" duration-ms="2809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript -->
+        <test-method signature="testScript4()[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:17:19 IST" name="testScript4" finished-at="2022-11-15T23:17:24 IST" duration-ms="4888" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [google] but found [Google]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [google] but found [Google]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet.testScript4(ExtentReportExample.java:81)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript4 -->
+        <test-method is-config="true" signature="afterMethodExample()[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:17:24 IST" name="afterMethodExample" finished-at="2022-11-15T23:17:25 IST" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodExample -->
+        <test-method is-config="true" signature="testScript(java.lang.String)[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:17:25 IST" name="testScript" finished-at="2022-11-15T23:17:27 IST" duration-ms="2910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript -->
+        <test-method signature="testScript5()[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:17:27 IST" name="testScript5" finished-at="2022-11-15T23:17:32 IST" duration-ms="4178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript5 -->
+        <test-method is-config="true" signature="afterMethodExample()[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:17:32 IST" name="afterMethodExample" finished-at="2022-11-15T23:17:32 IST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodExample -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet@3646a422]" started-at="2022-11-15T23:17:32 IST" name="afterTest" finished-at="2022-11-15T23:17:34 IST" duration-ms="1804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- reportgeneration.ExtentReportExample$TestNgDataProviderUsingExcelSheet -->
+    </test> <!-- C:/Users/Sagar1/IdeaProjects/MangalaMandwaleAutomationProject -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
